@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1280px) {
+	#everest-forms-builder {
+		.evf-tab-content {
+			.everest-forms-panel-content-wrap {
+				.everest-forms-field {
+					&.everest-forms-field-credit-card {
+						.everest-forms-credit-card-cardnumber {
+							input {
+								&.card-number {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	#everest-forms-builder {
+		.evf-tab-content {
+			.evf-field-conditional-container {
+				.evf-field-conditional-wrapper {
+					.evf-conditional-group {
+						margin-bottom: 15px;
+
+						.evf-form-group {
+							width: calc(100% - 61px);
+							justify-content: space-between;
+
+							input.evf-field-conditional-input {
+								width: 100%;
+							}
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 782px) {
+	table.wp-list-table.entries {
+		.column-indicators {
+			width: auto !important;
+		}
+
+		.indicators {
+			.indicator-star,
+			.indicator-read {
+				display: none;
+			}
+		}
+
+		tr:not(.inline-edit-row):not(.no-items) {
+			td.column-primary {
+				height: 8px;
+				padding: 0;
+				z-index: +1;
+				margin-right: 0;
+				overflow: visible;
+
+				+ td {
+					display: block !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#everest-forms-builder {
+		.evf-tab-content {
+			.evf-field-conditional-container {
+				.evf-field-conditional-wrapper {
+					.evf-conditional-group {
+						.evf-form-group {
+							width: calc(100% - 85px);
+							justify-content: flex-start;
+
+							.evf-field-conditional-input {
+								margin-bottom: 10px;
+							}
+
+							select {
+								&.evf-field-conditional-field-select,
+								&.evf-field-conditional-condition {
+									width: 46%;
+								}
+							}
+						}
+
+						.conditonal-rule-add,
+						.conditonal-rule-remove {
+							width: 40px;
+							height: 40px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

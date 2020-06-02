@@ -1,0 +1,193 @@
+=== Everest Forms (Pro) ===
+Contributors: WPEverest
+Tags: Everest Forms, addon, features
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 5.4
+Stable tag: 1.3.4.1
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Everest Forms features and extensions controller.
+
+= Support Policy =
+
+We will happily patch any confirmed bugs with this plugin, however, we will not offer support for:
+
+1. Customisations of this plugin or any plugins it relies upon
+2. Conflicts with "premium" themes from ThemeForest and similar marketplaces (due to bad practice and not being readily available to test)
+3. CSS Styling (this is customisation work)
+
+If you need help with customisation you will need to find and hire a developer capable of making the changes.
+
+== Installation ==
+
+To install this plugin, please follow the [instructions on plugin installation](https://wordpress.org/support/article/managing-plugins/#manual-plugin-installation) given in this article.
+
+== Changelog ==
+
+= 1.3.4.1 - 19-05-2020 =
+* Fix - Conditional value not showing.
+* Fix - Conditional bug on the submit button while applying condition on field.
+
+= 1.3.4 - 18-05-2020 =
+* Fix - Conditional Logic block on Email, Submit Button and Payment.
+* Fix - Z-index issue on intlTelInput country list popup with HighendWP theme.
+* Fix - Address field preventing form submission when conditional logic is enabled.
+
+= 1.3.3 - 17-05-2020 =
+* Feature - Added a new Pro field Range Slider
+* Fix - PHP 7.4 Undefined index notices in conditional logic checks.
+* Fix - Translation issue plus utilize wp_kses_post() to escape html.
+* Tweak - Updated intlTelInput JS library to v17.0.0.
+
+= 1.3.2 - 01-05-2020 =
+* Enhancement - Add support to country flags option.
+* Fix - Multipart progress bar not responding in IE bug.
+* Fix - Total amount calculation with different currencies.
+* Fix - Payment field calculation with different currencies.
+* Fix - Payment fields not working properly with conditional logic.
+* Tweak - PHPCS fixes.
+* Tweak - WPML compatibility for premium fields.
+* Tweak - Field exporter compatiable with PDF submission addon.
+
+= 1.3.1 - 06-04-2020 =
+* Fix - Localization for file upload.
+* Fix - Links not shown clickable in emails.
+* Fix - Selective html tag support in field label.
+* Fix - Logic implemented to AJAX validate during file upload.
+
+= 1.3.0 - 10-02-2020 =
+* Feature - Multiple File and Image Upload.
+* Feature - Address field's sub labels made editable.
+* Feature - Added password strength meter to password field.
+* Feature - Added password visibility toggle to password field.
+* Feature - Mark as read/unread and starred actions for entries.
+* Feature - Entry actions to Resend notification, Export to CSV, etc.
+* Enhancement - Improve payment choice field with image support.
+* Enhancement - Robust the layout for displaying field choice i.e inline or {one|two|three} columns.
+* Fix - Real-time updates for Single Item field.
+* Fix - Restrict and format user money input field.
+* Fix - Single Item currency symbol bug on first load.
+* Fix - Choice default value not rendered on frontend.
+* Fix - Credit card field should default to being required.
+* Fix - Load `jquery-intl-tel-input` library if phone field format is smart.
+* Fix - Hide empty serialized data field like file and image upload in entry.
+* Fix - If not payment form hide status column in entries list table accordingly.
+* Tweak - Gutenberg block preview styles.
+* Tweak - Sortable design issue and smooth payment choices.
+* Tweak - Set {10|20|30} as default amount for payment choice field.
+
+= 1.2.10 - 11-12-2019 =
+* Feature - MailChimp groups supported.
+
+= 1.2.9 - 18-11-2019 =
+* Enhancement - Smart format for Phone fields.
+* Enhancement - Conditional logic operators.
+* Fix - WordPress 5.3 UI compatibility bugs.
+
+= 1.2.8 - 06-11-2019 =
+* Fix - File upload and Signature field compatible with TCPDF.
+
+= 1.2.7 - 19-09-2019 =
+* Fix - Design isuue on IE browser.
+* Fix - Conditional logic on payment Single item field.
+* Fix - Removed negative amount on payment field.
+* Fix - Total amount while payment single item field is set to user defined.
+* Fix - Calculation of total amount if the payment field is conditionally hidden.
+* Fix - Payment single item while required on field type hidden and pre defined.
+* Fix - Hidden field on Entries.
+* Fix - Conditional logic bug fixes.
+
+= 1.2.6 - 16-07-2019 =
+* Feature - Add support for Custom Captcha addon.
+* Feature - Add support for User Registration addon.
+* Feature - Add support for User Post Submissions.
+* Fix - MailChimp no list error.
+* Fix - Email issue with checkbox.
+* Fix - Likert field list option design.
+* Fix - Country code returning its full name in all fields.
+* Fix - Conditional Logic error on Payment and email section.
+* Fix - Fatal error while form ID not valid on conditional logic.
+* Tweak - Logo images for payment tab.
+* Tweak - Conditional logic box design style.
+* Tweak - Global validation required message included for signature field.
+
+= 1.2.5 - 04-06-2019 =
+* Fix - Submit button visibility issue on multi-part.
+* Fix - Undefined index due to incorrect isset check.
+
+= 1.2.4 - 28-05-2019 =
+* Feature - Introduced payments conditional logic.
+* Feature - Introduced Credit card field for stripe.
+* Feature - Introduced submit button conditional logic.
+* Fix - Conditional logic for form fields.
+* Fix - Issue with conditional logic first child.
+* Fix - Introduce multiple signature field support.
+* Fix - Freezing signature field in multi-part form.
+* Tweaks - Design improment and SASS refactor.
+
+= 1.2.3 - 02-05-2019 =
+* Feature - Add support for Zapier addon.
+* Fix - Conditional Logic issue on Payment multiple choice field.
+
+= 1.2.2 - 04-04-2019 =
+* Feature - Introduced Signature and Payment Charge Field.
+* Fix - Validation for number of ratings.
+* Fix - Undefined `wpColorPicker` in console.
+* Fix - Removed placeholder setting from payment multiple choice and checkboxes.
+
+= 1.2.1 - 25-03-2019 =
+* Fix - Tooltip js issue.
+
+= 1.2.0 - 22-03-2019 =
+* Feature - Add support for Style Customizer addon.
+* Feature - Add support for Survey, Polls and Quiz addon.
+
+= 1.1.8 - 13-03-2019 =
+* Fix - Removed unnecessary `primary-input` class.
+* Fix - Removed extra placeholder in address field.
+* Fix - Validate uploader class with conditionally hidden rules.
+
+= 1.1.7 - 05-03-2019 =
+* Fix - deleting field used conditionally.
+* Fix - Conditionally hidden value submitted.
+* Fix - Payment gateway and transaction id on single entry.
+* Tweak - Validate message for WordPress not permitted file type.
+
+= 1.1.6 - 31-01-2019 =
+* Fix - Conditional logic operator rules not being saved.
+* Fix - No required checked for conditionally hidden address field.
+* Fix - Conditional logic show/hide rules for country and address fields.
+
+= 1.1.5 - 21-01-2019 =
+* Fix - Conditional Logic bug with Checkbox.
+
+= 1.1.4 - 17-12-2018 =
+* Fix - Conditional Logic bug with First Name and Last Name.
+* Fix - Entry data from Paypal with checkbox Field
+* Tweak - Backward Compatible with Everest Forms Core Multiple Email.
+
+= 1.1.3 - 06-12-2018 =
+* Tweak - Backward Compatible with Everest Forms Core Multiple Email.
+* Tweak - Required version updated.
+
+= 1.1.2 - 03-12-2018 =
+* Tweak - Compatible with Everest Forms Core Multiple Email.
+* Fix - Conditional Logic issue with similar field types.
+
+= 1.1.1 - 05-11-2018 =
+* Feautre - Introduced Conditional Logic For Email.
+* Enhancement - Input mask added on Phone field.
+* Fix - Escaping attribute for conditional logic.
+
+= 1.1.0 - 09-10-2018 =
+* Feautre - Introduced Conditional Logic.
+* Fix - Meta key required for HTML and title field.
+
+= 1.0.1 - 05-10-2018 =
+* Fix - Integration issue on Js while enabling conditional Logic.
+* Fix - Compatibility with lower php version.
+
+= 1.0.0 - 10-09-2018 =
+* Initial release

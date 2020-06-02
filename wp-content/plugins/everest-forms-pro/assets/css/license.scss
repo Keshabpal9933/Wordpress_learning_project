@@ -1,0 +1,38 @@
+/**
+ * license.scss
+ * Styles applied to plugins page for license form.
+ */
+
+/**
+ * Style begins.
+ */
+.everest-forms-updater-licensed {
+	th,
+	td {
+		box-shadow: none !important;
+	}
+}
+
+.everest-forms-updater-license-key {
+	border: 0;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 6px 12px;
+	margin: 5px 20px 15px 40px;
+	background-color: rgba(0, 0, 0, 0.03);
+	line-height: 27px;
+
+	input {
+		margin: 0 4px;
+		vertical-align: middle;
+	}
+
+	&::before {
+		color: #32373c;
+		content: '\f160';
+		margin: 0 8px 0 -2px;
+		display: inline-block;
+		vertical-align: middle;
+		font: 400 20px/27px dashicons;
+	}
+}

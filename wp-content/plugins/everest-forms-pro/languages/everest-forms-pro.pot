@@ -1,0 +1,1258 @@
+# Copyright (C) 2020 WPEverest
+# This file is distributed under the same license as the Everest Forms (Pro) plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Everest Forms (Pro) 1.3.4.1\n"
+"Report-Msgid-Bugs-To: help@wpeverest.com\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-19T11:44:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: everest-forms-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Everest Forms (Pro)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpeverest.com/wordpress-plugins/everest-forms/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Everest Forms features and extensions controller."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPEverest"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpeverest.com"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:272
+msgid "Add New Connection"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:319
+msgid "Please Add a connection."
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:384
+#: includes/abstracts/class-evf-email-marketing.php:421
+msgid "Add New Account"
+msgstr ""
+
+#. translators: %s for Specific API Service Provider Name
+#: includes/abstracts/class-evf-email-marketing.php:388
+msgid "%s API Key"
+msgstr ""
+
+#. translators: %s for Specific API Service Provider Nickname
+#: includes/abstracts/class-evf-email-marketing.php:391
+msgid "%s Account Nickname"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:393
+msgid "Connect To "
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:415
+msgid "Select Account"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:450
+msgid "Select List"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:452
+msgid "Select Form"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:495
+msgid "Select Groups"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:495
+msgid "There are multiple segments in your list. You may select specific list segments as per your needs."
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:612
+#: includes/abstracts/class-evf-email-marketing.php:614
+msgid "List Fields"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:614
+msgid "Available Form Fields"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:767
+#: includes/abstracts/class-evf-form-integration.php:84
+msgid "Use conditional logic"
+msgstr ""
+
+#: includes/abstracts/class-evf-email-marketing.php:770
+#: includes/abstracts/class-evf-form-integration.php:87
+#: includes/class-evf-conditional-logics.php:777
+#: includes/class-evf-conditional-logics.php:894
+msgid "Conditional Rules"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:61
+msgid "Something went wrong while removing the file."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:93
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:101
+msgid "No file was uploaded"
+msgstr ""
+
+#. translators: %s - error text.
+#: includes/abstracts/class-evf-form-fields-upload.php:200
+msgid "File upload error. %s"
+msgstr ""
+
+#. translators: %s: max upload size
+#: includes/abstracts/class-evf-form-fields-upload.php:212
+msgid "File exceeds max size allowed (%s)."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:221
+msgid "File must have an extension."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:226
+#: includes/abstracts/class-evf-form-fields-upload.php:242
+#: includes/class-everest-forms-pro.php:523
+#: includes/class-everest-forms-pro.php:1049
+msgid "File type is not allowed."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:418
+msgid "Allowed File Extensions"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:419
+msgid "Enter the extensions you would like to allow, comma separated."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:450
+msgid "Max File Size"
+msgstr ""
+
+#. translators: %s - max upload size.
+#: includes/abstracts/class-evf-form-fields-upload.php:452
+msgid "Enter the max file size, in megabytes, to allow. If left blank, the value defaults to the maximum size the server allows which is %s."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:483
+#: includes/abstracts/class-evf-form-fields-upload.php:496
+msgid "Maximum number limit on uploads"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:484
+#: includes/abstracts/class-evf-form-fields-upload.php:497
+msgid "Enter the number of files you wish the user to upload."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:520
+msgid "Store file in WordPress Media Library"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:521
+msgid "Check this option to store the final uploaded file in the WordPress Media Library"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:612
+msgid "(empty)"
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:714
+msgid "Drop your file here or click here to upload."
+msgstr ""
+
+#. translators: %s: Max file number
+#. translators: %d - max number of files.
+#: includes/abstracts/class-evf-form-fields-upload.php:718
+#: includes/abstracts/class-evf-form-fields-upload.php:772
+msgid "You can upload up to %d files."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:765
+msgid "Drop your file here or click here to upload"
+msgid_plural "Drop your files here or click here to upload"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1073
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1074
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1075
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1076
+msgid "No file was uploaded."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1077
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1078
+msgid "Failed to write file to disk."
+msgstr ""
+
+#: includes/abstracts/class-evf-form-fields-upload.php:1079
+msgid "File upload stopped by extension."
+msgstr ""
+
+#: includes/builder/class-evf-builder-integrations.php:25
+msgid "Integrations"
+msgstr ""
+
+#: includes/builder/class-evf-builder-integrations.php:54
+#: includes/builder/class-evf-builder-payments.php:54
+msgid "Install Your Addons"
+msgstr ""
+
+#. translators: %s - plugin admin area Addons page.
+#: includes/builder/class-evf-builder-integrations.php:58
+msgid "It seems you do not have any addons activated that needs integration. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon."
+msgstr ""
+
+#: includes/builder/class-evf-builder-payments.php:25
+#: includes/settings/class-evf-setting-payment.php:25
+#: includes/settings/class-evf-setting-payment.php:48
+msgid "Payments"
+msgstr ""
+
+#. translators: %s - plugin admin area Addons page.
+#: includes/builder/class-evf-builder-payments.php:58
+msgid "It seems you do not have any addons activated that needs payment. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:241
+msgid "Payment Options"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:242
+msgid "Paypal is selected as payment gateway."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:243
+msgid "Stripe is selected as payment gateway."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:244
+msgid "Please enable payment gateways."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:254
+msgid "Remove existing rules?"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:255
+msgid "Payment rule is mutually exclusive. Do you wish to remove other rules?"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:265
+msgid "OK"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:266
+msgid "Close"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:267
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:270
+msgid "We need to save your progress to continue to the Marketing panel. Is that OK?"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:271
+msgid "Are you sure you want to delete this connection?"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:272
+msgid "Enter a %type% nickname"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:273
+msgid "Eg: Newsletter Optin"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:274
+msgid "You must provide a connection nickname"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:275
+msgid "Field required"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:276
+msgid "Could not authenticate with the provider."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:277
+msgid "Fields are required."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:289
+#: includes/class-everest-forms-pro.php:646
+msgid "Star entry"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:290
+#: includes/class-everest-forms-pro.php:646
+msgid "Unstar entry"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:291
+#: includes/class-everest-forms-pro.php:651
+msgid "Mark entry read"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:292
+#: includes/class-everest-forms-pro.php:651
+msgid "Mark entry unread"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:305
+msgid "Please enter in a value less than 100."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:452
+msgid "This file was not uploaded."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:453
+msgid "File limit has been reached ({fileLimit})."
+msgstr ""
+
+#. translators: %s: Max upload size
+#: includes/class-everest-forms-pro.php:458
+msgid "File exceeds the upload limit allowed (%s)."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:462
+msgid "Do not submit the form until the upload process is finished"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:512
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:513
+msgid "Enter the message for valid phone number."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:514
+#: includes/class-everest-forms-pro.php:1048
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:521
+msgid "File Extension"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:522
+msgid "Enter the message for the allowed file extensions."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:530
+msgid "File Size"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:531
+msgid "Enter the message for the max file size allowed."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:532
+#: includes/class-everest-forms-pro.php:1050
+msgid "File exceeds max size allowed."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:559
+#: includes/class-everest-forms-pro.php:746
+msgid "Star"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:560
+#: includes/class-everest-forms-pro.php:746
+msgid "Unstar"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:561
+msgid "Mark Read"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:562
+#: includes/class-everest-forms-pro.php:753
+msgid "Mark Unread"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:576
+msgid "Unread"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:577
+msgid "Starred"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:600
+msgid "Status"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:760
+msgid "Export Entry (CSV)"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:767
+msgid "Resend Notifications"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:776
+msgid "Entry Actions"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:881
+msgid "This entry has been starred."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:883
+msgid "This entry has been unstarred."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:885
+msgid "This entry has been marked unread."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:887
+msgid "Notifications were resent!"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:909
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:919
+msgid "PayPal Standard"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:935
+msgid "Payment Details"
+msgstr ""
+
+#. translators: %s - entry payment status.
+#: includes/class-everest-forms-pro.php:944
+msgid "Status: %s"
+msgstr ""
+
+#. translators: %s - entry payment total.
+#: includes/class-everest-forms-pro.php:954
+msgid "Total: %s"
+msgstr ""
+
+#. translators: %s - entry payment gateway.
+#: includes/class-everest-forms-pro.php:964
+msgid "Gateway: %s"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:968
+msgctxt "Gateway mode"
+msgid "Test"
+msgstr ""
+
+#. translators: %s - entry payment transaction.
+#: includes/class-everest-forms-pro.php:977
+msgid "Transaction ID: %s"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:1008
+msgid "Please enter the desire amount."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:1027
+msgid "Please choose one Item."
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:1068
+msgid "View Everest Forms Pro documentation"
+msgstr ""
+
+#: includes/class-everest-forms-pro.php:1068
+msgid "Docs"
+msgstr ""
+
+#. translators: %s: everest-forms version
+#: includes/class-everest-forms-pro.php:1082
+msgid "Everest Forms Pro requires at least %s or later to work!"
+msgstr ""
+
+#. translators: %s: everest-forms version
+#: includes/class-everest-forms-pro.php:1082
+msgid "Everest Forms 1.6.0"
+msgstr ""
+
+#. translators: %s - form name.
+#: includes/class-evf-conditional-logics.php:139
+msgid "New %s Entry"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:750
+#: includes/class-evf-conditional-logics.php:876
+msgid "Check this option to enable condition logic."
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:759
+#: includes/class-evf-conditional-logics.php:882
+msgid "Enable Conditional Logic"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:860
+msgid "Admin Notification"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:898
+msgid "Show"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:899
+msgid "Hide"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:900
+msgid "Disable"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:928
+#: includes/class-evf-conditional-logics.php:969
+msgid "Payment"
+msgstr ""
+
+#: includes/class-evf-conditional-logics.php:1015
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/class-evf-plugin-updater.php:268
+msgid "Deactivate License Key"
+msgstr ""
+
+#: includes/class-evf-plugin-updater.php:268
+msgid "Deactivate License"
+msgstr ""
+
+#. translators: 1: expiry date 2: upgrade link
+#: includes/class-evf-plugin-updater.php:307
+msgid "The provided license key expired on %1$s. Please <a href=\"%2$s\" target=\"_blank\">renew your license key</a>."
+msgstr ""
+
+#. translators: %s: support link
+#: includes/class-evf-plugin-updater.php:318
+msgid "The provided license key has been disabled. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr ""
+
+#. translators: %s: account link
+#: includes/class-evf-plugin-updater.php:328
+msgid "The provided license is invalid. Please <a href=\"%s\" target=\"_blank\">visit your account page</a> and verify it."
+msgstr ""
+
+#. translators: %s: account link
+#: includes/class-evf-plugin-updater.php:339
+msgid "The provided license is not active for this URL. Please <a href=\"%s\" target=\"_blank\">visit your account page</a> to manage your license key URLs."
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-evf-plugin-updater.php:350
+msgid "This appears to be an invalid license key for <strong>%1$s</strong>."
+msgstr ""
+
+#. translators: %s: upgrade link
+#: includes/class-evf-plugin-updater.php:360
+msgid "The provided license key has reached its activation limit. Please <a href=\"%1$s\" target=\"_blank\">View possible upgrades</a> now."
+msgstr ""
+
+#: includes/class-evf-plugin-updater.php:367
+msgid "The key you entered belongs to a bundle, please use the product specific license key."
+msgstr ""
+
+#. translators: %s: support link
+#: includes/class-evf-plugin-updater.php:374
+msgid "The provided license key could not be found. Please <a href=\"%s\" target=\"_blank\">contact support</a> for more information."
+msgstr ""
+
+#. translators: %s: error message
+#: includes/class-evf-plugin-updater.php:382
+msgid "<strong>Activation error:</strong> %1$s"
+msgstr ""
+
+#: includes/class-evf-plugin-updater.php:394
+msgid "License could not activate. Please contact support."
+msgstr ""
+
+#: includes/class-evf-plugin-updater.php:396
+msgid "Connection failed to the License Key API server - possible server issue."
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:27
+msgid "Address"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:62
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:63
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:64
+msgid "City"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:65
+msgid "Zip / Postal Code"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:66
+msgid "State / Province / Region"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:67
+#: includes/fields/class-evf-field-country.php:20
+msgid "Country"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:90
+#: includes/fields/class-evf-field-country.php:65
+msgid "Check this option to show country flag."
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:176
+#: includes/fields/class-evf-field-address.php:250
+#: includes/fields/class-evf-field-address.php:324
+#: includes/fields/class-evf-field-address.php:398
+#: includes/fields/class-evf-field-address.php:472
+#: includes/fields/class-evf-field-address.php:546
+msgid "Placeholder"
+msgstr ""
+
+#: includes/fields/class-evf-field-address.php:180
+#: includes/fields/class-evf-field-address.php:254
+#: includes/fields/class-evf-field-address.php:328
+#: includes/fields/class-evf-field-address.php:402
+#: includes/fields/class-evf-field-address.php:476
+#: includes/fields/class-evf-field-address.php:550
+msgid "Default Value"
+msgstr ""
+
+#: includes/fields/class-evf-field-country.php:100
+msgid "Default Country"
+msgstr ""
+
+#: includes/fields/class-evf-field-country.php:101
+msgid "Enter the country to be displayed on frontend."
+msgstr ""
+
+#: includes/fields/class-evf-field-country.php:113
+#: includes/fields/class-evf-field-country.php:190
+#: includes/fields/class-evf-field-country.php:224
+#: includes/fields/class-evf-field-country.php:239
+msgid "--- Select a country ---"
+msgstr ""
+
+#: includes/fields/class-evf-field-credit-card.php:20
+msgid "Credit Card"
+msgstr ""
+
+#: includes/fields/class-evf-field-file-upload.php:20
+msgid "File Upload"
+msgstr ""
+
+#: includes/fields/class-evf-field-hidden.php:20
+msgid "Hidden Field"
+msgstr ""
+
+#: includes/fields/class-evf-field-html.php:20
+msgid "Custom HTML"
+msgstr ""
+
+#: includes/fields/class-evf-field-html.php:79
+msgid "HTML / Code Block"
+msgstr ""
+
+#: includes/fields/class-evf-field-html.php:80
+msgid "Contents of this field are not displayed in the admin area."
+msgstr ""
+
+#: includes/fields/class-evf-field-image-upload.php:20
+msgid "Image Upload"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:20
+#: includes/fields/class-evf-field-password.php:226
+#: includes/fields/class-evf-field-password.php:328
+msgid "Password"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:73
+msgid "Enable Password Confirmation"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:74
+msgid "Check to enable password confirmation."
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:100
+msgid "Enable Password Strength Meter"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:101
+msgid "Check to enable password strength meter."
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:114
+msgid "Simple Text"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:115
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:140
+msgid "Enable Show and Hide Password"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:141
+msgid "Check to enable password visibility toggle."
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:164
+msgid "Confirmation Placeholder Text"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:165
+msgid "Enter text for the confirmation field placeholder."
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:250
+#: includes/fields/class-evf-field-password.php:335
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/fields/class-evf-field-password.php:450
+msgid "Field values do not match."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:20
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:27
+#: includes/fields/class-evf-field-payment-radio.php:27
+msgid "First Choice"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:33
+#: includes/fields/class-evf-field-payment-radio.php:33
+msgid "Second Choice"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:39
+#: includes/fields/class-evf-field-payment-radio.php:39
+msgid "Third Choice"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:159
+msgid "Checked"
+msgstr ""
+
+#. translators: %s - Choice Number.
+#: includes/fields/class-evf-field-payment-checkbox.php:162
+msgid "Choice %s"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-checkbox.php:329
+msgid "Invalid payment option."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-quantity.php:20
+msgid "Quantity"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-quantity.php:94
+msgid "---Select Field---"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-quantity.php:103
+msgid "Calculate with this field"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-quantity.php:104
+#: includes/fields/class-evf-field-rating.php:93
+msgid "Choose the number of icons."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-radio.php:20
+msgid "Multiple Choice"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-radio.php:306
+msgid "Invalid payment option"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:20
+msgid "Single Item"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:68
+msgid "Item Price"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:69
+msgid "Please Enter price of your item, without a currency symbol."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:104
+msgid "Item Type"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:105
+msgid "Please select the item type."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:116
+msgid "Pre Defined"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:117
+msgid "User Defined"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:118
+msgid "Hidden"
+msgstr ""
+
+#. translators: %s - item price.
+#: includes/fields/class-evf-field-payment-single.php:194
+#: includes/fields/class-evf-field-payment-single.php:235
+msgid "Price: %s"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:208
+msgid "Note: You have selected hidden type which will not visible in the form."
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-single.php:279
+msgid "Amount mismatch"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-total.php:20
+msgid "Total"
+msgstr ""
+
+#: includes/fields/class-evf-field-payment-total.php:132
+msgid "Payment is required."
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:20
+msgid "Phone"
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:70
+msgid "Format"
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:71
+msgid "Select a format for the phone field."
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:82
+msgid "Default"
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:83
+msgid "Smart"
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:109
+msgid "Input Mask"
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:110
+msgid "Enter your custom input mask."
+msgstr ""
+
+#: includes/fields/class-evf-field-phone.php:111
+msgid "See Examples & Docs"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:20
+msgid "Range Slider"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:100
+msgid "Step"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:101
+msgid "Allows users to enter specific legal number intervals."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:138
+#: includes/fields/class-evf-field-range-slider.php:231
+msgid "Min Value"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:139
+msgid "Minimum value user is allowed to enter."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:176
+#: includes/fields/class-evf-field-range-slider.php:242
+msgid "Max Value"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:177
+msgid "Maximum value user is allowed to enter."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:210
+msgid "Min/Max"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:218
+msgid "Minimum and Maximum values"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:219
+msgid "Enter minimum and maximum values for the range slider field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:272
+msgid "Skin"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:273
+msgid "Skin to use for the range slider."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:285
+msgid "Flat"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:286
+msgid "Big"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:287
+msgid "Modern"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:288
+msgid "Sharp"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:289
+msgid "Round"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:290
+msgid "Square"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:321
+msgid "Show Grid For The Slider"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:322
+msgid "Check this if you want to show grid for this Range Slider field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:351
+msgid "Show Slider Input"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:352
+msgid "Check this if you want to show input box of this Range Slider field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:381
+msgid "Show Slider Prefix/Postfix"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:382
+msgid "Check this if you want to show Prefix/Postfix of this Range Slider field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:414
+#: includes/fields/class-evf-field-range-slider.php:434
+msgid "Use Texts for Prefix and Postfix"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:415
+msgid "Check this if you want to use texts in prefix and postfix for this Range Slider field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:432
+msgid "Warning"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:433
+msgid "If you don't check the option"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:435
+msgid "then the min/max values will be used as prefix and postfix"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:440
+msgid "Prefix/Postfix Texts"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:446
+msgid "Texts to use for prefix and postfix"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:447
+msgid "Enter texts to show in prefix and postfix of this field."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:459
+msgid "Prefix Text"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:470
+msgid "Postfix Text"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:500
+msgid "Slider Handle Color"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:501
+msgid "Select color for the slider handle."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:538
+msgid "Slider Highlight Color"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:539
+msgid "Select color for the slider highlight."
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:576
+msgid "Slider Track Color"
+msgstr ""
+
+#: includes/fields/class-evf-field-range-slider.php:577
+msgid "Select color for the slider track."
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:20
+msgid "Rating"
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:92
+msgid "Number of Icons"
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:135
+msgid "Rating Icon"
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:136
+msgid "Select rating icon to display"
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:172
+msgid "Icon Color"
+msgstr ""
+
+#: includes/fields/class-evf-field-rating.php:173
+msgid "Select the primary color for the rating icon"
+msgstr ""
+
+#: includes/fields/class-evf-field-signature.php:20
+#: includes/fields/class-evf-field-signature.php:246
+msgid "Signature"
+msgstr ""
+
+#: includes/fields/class-evf-field-signature.php:138
+msgid "Clear Signature"
+msgstr ""
+
+#: includes/fields/class-evf-field-signature.php:165
+msgid "Invalid signature image format."
+msgstr ""
+
+#: includes/fields/class-evf-field-title.php:20
+msgid "Section Title"
+msgstr ""
+
+#: includes/payments/functions.php:18
+msgid "U.S. Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:26
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/payments/functions.php:34
+msgid "Euro"
+msgstr ""
+
+#: includes/payments/functions.php:42
+msgid "Australian Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:50
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/payments/functions.php:58
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:66
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/payments/functions.php:74
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/payments/functions.php:82
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:90
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/payments/functions.php:98
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/payments/functions.php:106
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: includes/payments/functions.php:114
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/payments/functions.php:122
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/payments/functions.php:130
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:138
+msgid "Philippine Peso"
+msgstr ""
+
+#: includes/payments/functions.php:146
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/payments/functions.php:154
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/payments/functions.php:162
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:170
+msgid "South African Rand"
+msgstr ""
+
+#: includes/payments/functions.php:178
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/payments/functions.php:186
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/payments/functions.php:194
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/payments/functions.php:202
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/settings/class-evf-setting-payment.php:55
+msgid "Currency"
+msgstr ""
+
+#: includes/settings/class-evf-setting-payment.php:56
+msgid "This controls which currency gateways will take payments in."
+msgstr ""
+
+#: includes/updater/class-evf-updater-api.php:241
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/updater/class-evf-updater-api.php:249
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/updater/class-evf-updater-api.php:492
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/updater/class-evf-updater-api.php:492
+msgid "Error"
+msgstr ""
+
+#: includes/updater/views/html-license-form.php:17
+msgid "License:"
+msgstr ""
+
+#: includes/updater/views/html-license-form.php:18
+msgid "XXXX-XXXX-XXXX-XXXX"
+msgstr ""
+
+#: includes/updater/views/html-license-form.php:19
+msgid "Enter your license key and hit return. A valid key is required for updates."
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/updater/views/html-notice-key-activated.php:17
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/updater/views/html-notice-key-deactivated.php:17
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: includes/updater/views/html-notice-key-unvalidated.php:12
+msgid "Hide notice"
+msgstr ""
+
+#. translators: 1: license key URL 2: plugin name
+#: includes/updater/views/html-notice-key-unvalidated.php:18
+msgid "<a href=\"%1$s\">Please enter your license key</a> in the plugin list below to get updates for <strong>%2$s</strong> Add-ons."
+msgstr ""

@@ -1,0 +1,14 @@
+/*
+    Theme Name: Test Theme
+    Auther: Mr Keshab Pal
+*/
+
+body {
+    background: #e7e7e7;
+}
+
+header {
+    background: #fff;
+    height: 100px;
+    width: 100%;
+}
